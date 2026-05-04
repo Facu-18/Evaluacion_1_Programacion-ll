@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Evaluacion_1.Back
 {
-    public class Empleado: Persona, IPersona
+    public class Empleado : Persona, IPersona
     {
         public string Cuil { get; set; }
 
@@ -13,7 +13,7 @@ namespace Evaluacion_1.Back
             Console.WriteLine($"Id: {Id}, Cuil: {Cuil}, nombre: {Nombre}");
         }
 
-        public Empleado(int id, string cuil, string nombre): base(id, cuil, nombre)
+        public Empleado(int id, string cuil, string nombre) : base(id, cuil, nombre)
         {
             Cuil = cuil;
             MostrarInformacion();

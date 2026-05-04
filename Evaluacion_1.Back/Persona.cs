@@ -1,6 +1,6 @@
 ﻿namespace Evaluacion_1.Back
 {
-    public class Persona: IPersona
+    public class Persona
     {
         public int Id { get; set; }
         public string DNI { get; set; }

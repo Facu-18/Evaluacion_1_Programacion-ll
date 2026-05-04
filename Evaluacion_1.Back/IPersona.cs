@@ -10,6 +10,6 @@ namespace Evaluacion_1.Back
         
         public string DNI { get; set; }
         public string Nombre { get; set; }
-        void MostrarInformacion();
+        public void MostrarInformacion();
     }
 }
